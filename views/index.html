@@ -19,36 +19,27 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <header>
-      <h1>
-        A Dream of the Future
-      </h1>
-    </header>
+   <div>
+    <h1>FreeCodeCamp API Basejump: URL Shortener Microservice</h1>
+    <p>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response. When I visit that shortened URL, it will redirect me to my original link.</p>
+    <ol>Example creation usage: 
+      <li>https://urlshortenermyapp.glitch.me/new/https://www.google.com </li>
+      <li>https://urlshortenermyapp.glitch.me/new/http://foo.com:80</li>
+     </ol>
+     <h3>
+       Example creation output 
+     </h3>
+     <p>
+       {"original_url":"https://www.google.com","shorten_url":"https://urlshortenermyapp.glitch.me/1516119244000"}
+     </p>
+     <p>
+       
+     <strong>Usage:</strong>
+https://urlshortenermyapp.glitch.me/1516119244000<br>
 
-    <main>
-      <p class="bold">Oh hi,</p>
-      <p>Tell me your hopes and dreams:</p>
-      <form>
-        <input type="text" maxlength="100" placeholder="Dreams!">
-        <button type="submit">Submit</button>
-      </form>
-      <section class="dreams">
-        <ul id="dreams">
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <a href="https://glitch.com">
-        Remix this in Glitch
-      </a>
-    </footer>
-
-    <!-- Your web-app is https, so your scripts need to be too -->
-    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
-            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
-            crossorigin="anonymous"></script>
-    <script src="/client.js"></script>
-
+<strong>Will redirect to:</strong>
+https://www.google.com
+         </p>
+    </div>
   </body>
 </html>

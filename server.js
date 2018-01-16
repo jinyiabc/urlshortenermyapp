@@ -57,7 +57,7 @@ var result
     var original_url = JSON.stringify(req.url).slice(6,-1)
     // console.log(original_url)  // https://www.google.com
 //======================================================================================
-// Connecet mLab datebase.
+// Connecet mLab database.
   var id = ObjectId().getTimestamp().getTime()
 var doc = {
     _id: id,
